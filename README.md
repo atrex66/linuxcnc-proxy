@@ -6,7 +6,7 @@
 > **A modern Python TCP/IP bridge between LinuxCNC and your remote application.**
 
 This project allows you to control and monitor LinuxCNC from any remote system using a simple TCP/IP proxy, making the original LinuxCNC Python API accessible over the network.
-
+The project state is alpha, with version V0.0.1, it is full of bugs and vibe code. :)
 ---
 
 ## 🎯 Project Final Goal
