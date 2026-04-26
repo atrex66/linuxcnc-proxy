@@ -88,7 +88,7 @@ try:
         def __init__(self):
             self.stat = linuxcnc.stat()
             self.command = linuxcnc.command()
-            self.error = None
+            self.error = linuxcnc.error()
 
         def poll_status(self):
             self.stat.poll()
