@@ -1,7 +1,7 @@
 # linuxcnc-proxy
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)
-![License](https://img.shields.io/github/license/your-repo/linuxcnc-proxy?color=blue)
+![License](https://img.shields.io/github/license/atrex66/linuxcnc-proxy?color=blue)
 
 > **A modern Python proxy for LinuxCNC remote control and monitoring.**
 
@@ -58,9 +58,6 @@ linuxcnc-proxy/
 ## ⚡ Usage
 
 - **Run the Proxy Server:**
-    add your linuxcnc ini file to the DISPLAY
-	```ini
-	DISPALY=linuxcnc_proxy
 
 	### On the LinuxCNC Host (Server)
 
