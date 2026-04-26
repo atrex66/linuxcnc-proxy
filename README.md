@@ -94,14 +94,19 @@ linuxcnc-proxy/
 
 	---
 
-	### On the Remote Client
 
-	Import the remote library and use it as you would on a native LinuxCNC installation:
+### On the Remote Client
 
-	```python
-	import linuxcnc_remote as linuxcnc
-	# Use linuxcnc.Command(), linuxcnc.Stat(), etc. as normal
-	```
+Import the remote library and use it as you would on a native LinuxCNC installation:
+
+```python
+import linuxcnc_remote as linuxcnc
+# Use linuxcnc.Command(), linuxcnc.Stat(), etc. as normal
+```
+
+**Automatic Proxy Discovery:**
+
+If the `LINUXCNC_HOST` environment variable is not set, the remote library will automatically discover the `linuxcnc_proxy` server on your network and connect to it. This makes setup seamless—just ensure your proxy server is running and reachable on the network.
 
 	---
 
