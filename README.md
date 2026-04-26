@@ -3,7 +3,24 @@
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)
 ![License](https://img.shields.io/github/license/atrex66/linuxcnc-proxy?color=blue)
 
-> **A modern Python proxy for LinuxCNC remote control and monitoring.**
+> **A modern Python TCP/IP bridge between LinuxCNC and your remote application.**
+
+This project allows you to control and monitor LinuxCNC from any remote system using a simple TCP/IP proxy, making the original LinuxCNC Python API accessible over the network.
+
+---
+
+## 🎯 Project Final Goal
+
+The goal of this project is to control LinuxCNC from a remote machine (local or otherwise) using any operating system that is connected to the network and can run Python with the standard `socket` library. This enables seamless integration and control of LinuxCNC from Windows, macOS, Linux, or any other platform with Python support. Final goal is to run existing linuxcnc screens in other operating systems and replace linuxcncrsh with a modern alternative.
+
+# linuxcnc-proxy
+
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)
+![License](https://img.shields.io/github/license/atrex66/linuxcnc-proxy?color=blue)
+
+> **A modern Python TCP/IP bridge between LinuxCNC and your remote application.**
+
+This project allows you to control and monitor LinuxCNC from any remote system using a simple TCP/IP proxy, making the original LinuxCNC Python API accessible over the network.
 
 ---
 
